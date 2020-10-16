@@ -1,0 +1,48 @@
+body {
+  background-color: #eaeaea;
+}
+
+.content-wrapper {
+  background-color: #d6e4f0;
+  padding: 20px;
+  margin: 100px 150px 70px;
+  border: 1px solid black;
+}
+
+.content-wrapper h2 {
+  text-align: center;
+}
+.content-wrapper h1 {
+  text-align: center;
+}
+
+.home {
+  border: 1px solid black;
+}
+
+.photo {
+  width: 150px;
+  height: 220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #163172;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  top: 0;
+}
+
+.menu {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+}
+
+.menu:hover {
+  background-color: #eaeaea;
+  color: green;
+}
