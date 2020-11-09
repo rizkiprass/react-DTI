@@ -1,10 +1,11 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import './App.css';
 import { Route, Switch, BrowserRouter, Redirect } from 'react-router-dom';
-import Header from './header';
+import { HeaderPage } from './components';
 import routes from './config/routes';
 
-const isUserAuthenticated = false;
+const isUserAuthenticated = true;
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
   return (
@@ -23,7 +24,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => {
 const App = () => {
   return (
     <BrowserRouter>
-      <Header />
+      <HeaderPage />
       <Switch>
         {routes.map((route) => {
           if (route.isPublic) {
