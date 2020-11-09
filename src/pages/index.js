@@ -1,10 +1,6 @@
 export { default as Home } from './home';
-export { default as AboutMe } from './aboutMe';
-export { default as AcademicBackground } from './academicBackground';
-export { default as Experience } from './experience';
-export { default as Contact } from './contact';
-export { default as Skills } from './skills';
-export { default as Achievement } from './achievement';
 export { default as Profile } from './profile';
-export { default as ProfileId } from './profileId';
+export { default as Contact } from './contact';
 export { default as Login } from './login';
+export { default as ProfileId } from './profileId';
+export { default as InfoCorona } from './infoCorona';

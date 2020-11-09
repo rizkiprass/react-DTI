@@ -1,0 +1,18 @@
+.container {
+  border: 2px solid black;
+  margin: 20px 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.date {
+  font-size: 13px;
+}
+
+h2 {
+  text-align: center;
+}

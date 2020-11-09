@@ -1,15 +1,4 @@
-import {
-  Home,
-  AboutMe,
-  AcademicBackground,
-  Experience,
-  Achievement,
-  Skills,
-  Contact,
-  Login,
-  ProfileId,
-  Profile,
-} from '../pages';
+import { Home, Profile, Contact, Login, ProfileId, InfoCorona } from '../pages';
 
 const routes = [
   {
@@ -21,16 +10,6 @@ const routes = [
     path: '/profile',
     component: Profile,
     isPublic: false,
-  },
-  {
-    path: '/aboutMe',
-    component: AboutMe,
-    isPublic: true,
-  },
-  {
-    path: '/experience',
-    component: Experience,
-    isPublic: true,
   },
   {
     path: '/contact',
@@ -48,18 +27,8 @@ const routes = [
     isPublic: true,
   },
   {
-    path: '/academicBackground',
-    component: AcademicBackground,
-    isPublic: true,
-  },
-  {
-    path: '/achievement',
-    component: Achievement,
-    isPublic: true,
-  },
-  {
-    path: '/skills',
-    component: Skills,
+    path: '/infoCorona',
+    component: InfoCorona,
     isPublic: true,
   },
   {

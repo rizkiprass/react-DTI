@@ -1,12 +1,7 @@
 import React from 'react';
 
 const Profile = () => {
-  return (
-    <div className="content-wrapper">
-      My Profile!
-      <p>test</p>
-    </div>
-  );
+  return <div> My Profile!</div>;
 };
 
 export default Profile;
