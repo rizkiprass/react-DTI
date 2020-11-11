@@ -4,7 +4,8 @@ import './style.css';
 const Cards = ({ data }) => {
   return (
     <div className="container">
-      <p className="title">{data.activity[0].title}</p>
+      <h3 className="title">{data.activity[0].title}</h3>
+      <p className="desc">{data.activity[0].desc}</p>
       <p className="date">
         Tanggal:
         {new Date(data.date).toDateString()}

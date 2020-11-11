@@ -20,9 +20,15 @@ const CoronaNews = () => {
   // console.log(news);
 
   return (
-    <div>
-      <h2>Berita Corona</h2>
-      {isLoading ? <p>loading</p> : news.map((nws) => { return <Cards data={nws} />; })}
+    <div className="container_beritaCorona">
+      <h2 className="title_beritaCorona">Berita Corona</h2>
+      {isLoading ? (
+        <p>loading</p>
+      ) : (
+        news.map((nws) => {
+          return <Cards data={nws} />;
+        })
+      )}
     </div>
   );
 };

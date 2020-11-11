@@ -1,12 +1,21 @@
 .container {
   border: 2px solid black;
-  margin: 20px 20%;
+  margin: 20px 5%;
   padding-left: 10px;
   padding-right: 10px;
 }
 
+.container_beritaCorona {
+  margin: 30px 50px;
+  background-color: rgb(219, 233, 217);
+}
+
 .title {
-  font-size: 18px;
+  font-size: ;
+}
+
+.title_beritaCorona {
+  padding: 15px;
 }
 
 .date {
