@@ -25,8 +25,10 @@ const CoronaNews = () => {
       {isLoading ? (
         <p>loading</p>
       ) : (
-        news.map((nws) => {
-          return <Cards data={nws} test1="ini test" />;
+        news.map((nwsperdate) => {
+          return (
+            <Cards key={nwsperdate.date} data={nwsperdate} test1="ini test" />
+          );
         })
       )}
     </div>
