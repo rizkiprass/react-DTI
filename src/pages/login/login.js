@@ -20,8 +20,8 @@ const Login = () => {
           localStorage.setItem('token', result.data.token);
         }
       })
-      .catch(() => {
-        setError(e.response.data.message);
+      .catch((err) => {
+        setError(err.response.data.message);
       });
   };
   return (
