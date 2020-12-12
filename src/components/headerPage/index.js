@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import cookie from '../../utils/cookie';
+import { isUserAuthenticated } from '../../utils/cookie';
 
 const Header = () => {
-  const listMenu = ['home', 'profile', 'contact', 'infoCorona'];
+  const listMenu = ['Home', 'Profile', 'Contact', 'InfoCorona', 'Product'];
   return (
     <div className="header">
       {listMenu.map((name) => {
@@ -13,7 +13,7 @@ const Header = () => {
           </Link>
         );
       })}
-      {cookie.isUserAuthenticated ? <span>logout</span> : <div />}
+      {isUserAuthenticated() ? <span>logout</span> : <div />}
     </div>
   );
 };

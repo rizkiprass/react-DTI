@@ -27,7 +27,7 @@ const routes = [
   {
     path: '/product',
     component: Product,
-    isPublic: true,
+    isPublic: false,
   },
   {
     path: '/home',
